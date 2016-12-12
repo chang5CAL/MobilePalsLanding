@@ -196,6 +196,9 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
+		if (/mobile/i.test(navigator.userAgent)) {
+			alert('mobile');
+		} 
 		$("#slick").slick({
 			infinite: false,
 			responsive: [
