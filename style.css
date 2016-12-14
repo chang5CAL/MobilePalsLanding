@@ -137,7 +137,7 @@ ul {
 	background-color: white;
 }
 
-.feature2-phone-container {
+.feature1-phone-container, .feature2-phone-container {
 	text-align: right;
 }
 
@@ -226,27 +226,19 @@ ul {
 		margin-top: 10px;
 	}
 
-    .section-feature1 {
-		height: 1300px;
-	}
-
-	.feature1-phone {
+/*	.feature1-phone {
 		position: absolute;
 		margin-top: 140vh;
 		margin-left: -70vw;
 		height: 60vh;
-	}
+	}*/
 
-	.feature2-phone-container {
+	.feature1-phone-container, .feature2-phone-container {
 		text-align: center;
 	}
 
 	.section-feature3 h1 {
 		font-size: 32px;
-	}
-
-	.section-form {
-		height: 80vh;
 	}
 
 	.email-form {
@@ -289,13 +281,6 @@ ul {
 /* for 320x480 case */
 @media (max-width: 320px) {
 
-	.section-feature1 {
-		height: 1350px;
-	}
-
-	.feature1-phone {
-		margin-top: 1050px;
-	}
 	.section-form {
 		height: 500px;
 	}
@@ -342,20 +327,12 @@ ul {
         display: none;
     }
 
-	.feature1-phone {
+/*	.feature1-phone {
 		position: absolute;
 		margin-top: 60vh;
 		margin-left: -60vw;
 		height: 40vh;
-	}
-
-	.feature2-phone {
-		position: absolute;
-		margin-top: 63vh;
-		margin-left: -60vw;
-		height: 40vh;
-		margin-top: 50px;
-	}
+	}*/
 
 	.top-space {
 		margin-top: 50px;
